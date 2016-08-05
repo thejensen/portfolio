@@ -2,13 +2,18 @@ body {
   background-image: url("../img/hood.jpg");
   -webkit-background-size: cover;
 
-  /*background-attachment: fixed;
+  /* Fussing with CSS to fix background image. Mostly successful! Above worked better.
+  background-attachment: fixed;
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: center;*/
 }
 
 #heading {
+  margin: 50px;
+}
+
+#projects {
   margin: 50px;
 }
 
@@ -21,6 +26,17 @@ div, h3 {
   font-weight: lighter;
 }
 
+div, h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: lighter;
+}
+
+div, ul {
+  font-family: "Garamond", "Georgia", serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
 div img {
   width: 200px;
   border: solid;
@@ -29,7 +45,16 @@ div img {
   border-width: 10px;
 }
 
-#projects {
+img {
   float: right;
-
 }
+
+/*--working on list items
+li {
+  font-family: "Garamond", "Georgia", serif;
+  font-weight: lighter;
+}
+
+li {
+  not:last-child: margin 5px;
+}*/
