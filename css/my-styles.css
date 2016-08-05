@@ -11,7 +11,7 @@ body {
 
 .header {
   border: solid;
-  border-color: #5e3308;
+  border-color:  #f0f5f5;
   border-radius: 50px;
   padding: 40px;
   margin-left: 30px;
@@ -22,7 +22,24 @@ body {
 }
 
 .aboutme {
+  border: solid;
+  border-color:  #00e6b8;
+  border-radius: 50px;
+  padding: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
   text-align: center;
+  background: rgba(0, 57, 77, 0.25)
+}
+
+.projects {
+  border: solid;
+  border-color: #660066;
+  border-radius: 50px;
+  padding: 40px;
+  margin: 30px;
+  background: rgba(179, 128, 77, 0.25);
 }
 
 div, h1 {
@@ -79,6 +96,11 @@ div img {
   border-radius: 50%;
 }
 
-button {
+projects.button {
   float: right;
+}
+
+.collapse {
+  font-style: italic;
+  padding-right: 200px;
 }
