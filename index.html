@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/my-styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/my-styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" conent="width=device-width, initial-scale=1">
   </head>
 
@@ -21,31 +21,29 @@
       <h2>Website projects</h2>
       <ul>
         <li><a href="https://github.com/thejensen/Vacation">Vacationing in Sweden</a></li>
-        <p><strong>Technology</strong>: Bootstrap, HTML, CSS, JavaScript</p>
+        <strong>Technology</strong>: Bootstrap, HTML, CSS, JavaScript<br>
+        This website exercised organizing site architecture when using example templates provided by Bootstrap, to play with working code.
         <div class="container">
-          <button type="button" class="btn btn-default" data-toggle="collapse">See description</button>
+          <button type="button" class="btn btn-xs" data-toggle="collapse">Details</button>
           <div class="collapse">
-            <ul>
-              <li>This website exercised organizing site architecture when using
-                  example templates provided by Bootstrap, to play with working
-                  code.</li>
-              <li>It features a navbar that collapses in mobile sizing, a
-                  jumbotron, a carousel that cycles photos with a manual option
-                  to move photos back and forth as well.</li>
-              <li>The use of Bootstrap's grid systems of rows and 12 columns will
-                  be the most translatable to other work, for me!</li>
-              </ul>
+            It features a navbar that collapses in mobile sizing, a jumbotron, a carousel
+            that cycles photos with a manual option to move photos back and forth as well.<br><br>
+            The use of Bootstrap's grid systems of rows and 12 columns will be the most
+            translatable to other work, for me!
           </div>
         </div>
 
 
         <li><a href="https://github.com/thejensen/band">The Beatles Fan Site</a></li>
-        <p><strong>Technology</strong>: HTML, CSS</p>
-          <ul>
-            <li>You'll find a template for a band fan website, which included
-              html and css only.</li>
-            <li>On this site, there is the first sidebar I've ever made!</li>
-          </ul>
+        <strong>Technology</strong>: HTML, CSS<br>
+        You'll find a template for a band fan website, featuring The Beatles!
+        <div class="container">
+          <button type="button" class="btn btn-xs" data-toggle="collapse">Details</button>
+          <div class="collapse">On this site, there is the first sidebar I've ever made!</div>
+        </div>
+
+
+
 
         <li><a href="https://github.com/thejensen/resume">Resume: Sara Jensen</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
@@ -142,7 +140,7 @@
     <!--Below is for the toggle!-->
     <script>
     $(document).ready(function(){
-        $(".btn-default").click(function(){
+        $(".btn-xs").click(function(){
             $(".collapse").collapse('toggle');
         });
     });
