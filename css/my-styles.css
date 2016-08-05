@@ -42,16 +42,16 @@ body {
   background: rgba(179, 128, 77, 0.25);
 }
 
-div, h1 {
+h1 {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-div, h3 {
+h3 {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
 }
 
-div, h2 {
+h2 {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
 }
@@ -61,13 +61,14 @@ a {
   font-size: 14px;
   color: #3d3d8f;
   text-decoration: underline;
-  font-weight: bolder;
+  font-weight: lighter;
 }
 
-div, ul {
+ul {
   font-family: "Garamond", "Georgia", serif;
   font-weight: lighter;
   font-size: 14px;
+  list-style: none;
 }
 
 div, p {
@@ -97,6 +98,7 @@ div img {
 }
 
 button {
+  padding: 20px;
   float: right;
 }
 
