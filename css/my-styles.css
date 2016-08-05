@@ -1,7 +1,11 @@
 body {
   background-image: url("../img/hood.jpg");
-  background-size: 100%;
+  -webkit-background-size: cover;
+
+  /*background-attachment: fixed;
+  background-size: 200%;
   background-repeat: no-repeat;
+  background-position: center;*/
 }
 
 #heading {
