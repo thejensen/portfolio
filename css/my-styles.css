@@ -24,3 +24,8 @@ div img {
   border-color:  #006666;
   border-width: 10px;
 }
+
+#projects {
+  float: right;
+
+}
