@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/hood.jpg");
+  background-image: url("../img/mountains.jpg");
   -webkit-background-size: cover;
 
   /* Fussing with CSS to fix background image. Mostly successful! Above worked better.
@@ -9,13 +9,21 @@ body {
   background-position: center;*/
 }
 
-#heading {
-  margin: 50px;
+.sidebar {
+  border: solid;
+  border-color:  #336699;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  text-align: center;
+  background: rgba(255, 255, 204, 0.2);
 }
 
-#projects {
-  margin: 50px;
+.projects {
+  margin: 40px;
 }
+
 
 div, h1 {
   font-family: "Helvetica", "Arial", sans-serif;
@@ -29,6 +37,11 @@ div, h3 {
 div, h2 {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: lighter;
+}
+
+#projects, a {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
 }
 
 div, ul {
@@ -45,14 +58,20 @@ div, li:first-child {
   padding-top: 10px;
 }
 
+.sidebar a {
+  font-family: "Myriad Pro";
+  font-weight: bold;
+}
+
+
 div img {
   width: 200px;
   border: solid;
   border-style: double;
   border-color:  #006666;
   border-width: 10px;
+  border-radius: 50%;
 }
 
 img {
-  float: right;
 }
