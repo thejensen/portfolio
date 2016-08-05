@@ -37,6 +37,14 @@ div, ul {
   font-size: 14px;
 }
 
+div, li:last-child {
+  padding-bottom: 20px;
+}
+
+div, li:first-child {
+  padding-top: 10px;
+}
+
 div img {
   width: 200px;
   border: solid;
@@ -48,13 +56,3 @@ div img {
 img {
   float: right;
 }
-
-/*--working on list items
-li {
-  font-family: "Garamond", "Georgia", serif;
-  font-weight: lighter;
-}
-
-li {
-  not:last-child: margin 5px;
-}*/

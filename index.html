@@ -2,8 +2,8 @@
 <html>
   <head>
     <link href="css/my-styles.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <meta name="viewport" conent="width=device-width, initial-scale=1"
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <meta name="viewport" conent="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -22,16 +22,22 @@
       <ul>
         <li><a href="https://github.com/thejensen/Vacation">Vacationing in Sweden</a></li>
         <p><strong>Technology</strong>: Bootstrap, HTML, CSS, JavaScript</p>
-          <ul>
-            <li>This website exercised organizing site architecture when using
-              example templates provided by Bootstrap, to play with working
-              code.</li>
-            <li>It features a navbar that collapses in mobile sizing, a
-              jumbotron, a carousel that cycles photos with a manual option
-              to move photos back and forth as well.</li>
-            <li>The use of Bootstrap's grid systems of rows and 12 columns will
-              be the most translatable to other work, for me!</li>
-          </ul>
+        <div class="container">
+          <button type="button" class="btn btn-default" data-toggle="collapse">See description</button>
+          <div class="collapse">
+            <ul>
+              <li>This website exercised organizing site architecture when using
+                  example templates provided by Bootstrap, to play with working
+                  code.</li>
+              <li>It features a navbar that collapses in mobile sizing, a
+                  jumbotron, a carousel that cycles photos with a manual option
+                  to move photos back and forth as well.</li>
+              <li>The use of Bootstrap's grid systems of rows and 12 columns will
+                  be the most translatable to other work, for me!</li>
+              </ul>
+          </div>
+        </div>
+
 
         <li><a href="https://github.com/thejensen/band">The Beatles Fan Site</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
@@ -39,41 +45,74 @@
             <li>You'll find a template for a band fan website, which included
               html and css only.</li>
             <li>On this site, there is the first sidebar I've ever made!</li>
-
+          </ul>
 
         <li><a href="https://github.com/thejensen/resume">Resume: Sara Jensen</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
+          This is my Resume. Have a look and see if you like it enough to hire me
+          in <em>6 months from August 5, 2016</em>.
+          </menu>
+          <ul>
+            <li>Using divs for the first time, I added styling to the resume.
+            Nothing too crazy, it's a resume.</li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/blog">Blog</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
+          Here's a blog template that anyone might want to use in 1998!
+          <ul>
+            <li>Using floats, the images in the blog stay to the right of the entries.</li>
+            <li>Played with divs to add margins, change fonts and background colors</li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/boring-lecture">Civil Engineering Lecture</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
+          If you're in for a snooze, read all about Civil Engineering in this lecture
+          series website.
+          <ul>
+            <li>We added classes to our divs to adjust styles en masse.</li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/decorator">Interior Decorator</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
+          This site shows the progress of a home being renovated with before, during
+          and after shots.
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/cupcake">Cupcake Shop</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/resort">Private Island Resort</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
-          A client requested a site to share information about their Private Island Resort.
+        A client requested a site to share information about their Private Island Resort.
           They wanted several pages that describe accommodations, travel, etc., with navigation
-          back to the homepage.<br>
-          This project helped us understand git branching. With two branches, we offered
-          our client the same website styled in two different ways. We also published
-          the final version of the client's choosing to github.io.
+          back to the homepage.
+        <ul>
+          <li>This project helped us understand git branching. With two branches, we offered
+          our client the same website styled in two different ways.</li>
+          <li>We also published the final version of the client's choosing to github.io.</li>
+        </ul>
+
 
         <li><a href="https://github.com/thejensen/cookie-recipe">Cookie Recipe</a></li>
         <p><strong>Technology</strong>: HTML, CSS</p>
-
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
 
         <li><a href="https://github.com/thejensen/my-first-webpage">My First Webpage</a></li>
         <p><strong>Technology</strong>: HTML, CSS, Markdown</p>
           This project introduced us to block and in-line elements, images, and more. We were also
           first introduced to styling with CSS here, like changing the background color and font
-          of text by indicating which elements we wanted to change. First README.md added to this
+          of text by indicatinsg which elements we wanted to change. First README.md added to this
           page. Sub-projects included:
             <ol>
               <li><a href="https://github.com/thejensen/my-first-webpage/blob/master/rabbit-page.html">Rabbit Profiles</a></li>
@@ -98,9 +137,17 @@
 
 
 
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--Below is for the toggle!-->
+    <script>
+    $(document).ready(function(){
+        $(".btn-default").click(function(){
+            $(".collapse").collapse('toggle');
+        });
+    });
+    </script>
+    <!--End toggle scrip-->
+
   </body>
 </html>
