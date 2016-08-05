@@ -35,9 +35,9 @@ body {
 
 .projects {
   border: solid;
-  border-color: #660066;
+  border-color: #b86614;
   border-radius: 50px;
-  padding: 40px;
+  padding: 20px;
   margin: 30px;
   background: rgba(179, 128, 77, 0.25);
 }
@@ -102,5 +102,5 @@ button {
 
 .collapse {
   font-style: italic;
-  padding-right: 40px;
+  padding-right: 30px;
 }

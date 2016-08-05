@@ -18,10 +18,8 @@ _This code depends on Bootstrap and browsers to run as expected as of August 201
 
 ## Known Bugs
 
-_The "Details" buttons in the project descriptions open all the project descriptions
-at once. I am excited to get them working independently of each other. If they impact
-the UI too much in the future, even when they do work properly, I may remove them
-all together._
+_No known functional bugs, happy to report!
+Sized between 776-840px some of the text flows outside the projects box._
 
 ## Support and contact details
 
