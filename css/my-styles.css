@@ -96,11 +96,11 @@ div img {
   border-radius: 50%;
 }
 
-projects.button {
+button {
   float: right;
 }
 
 .collapse {
   font-style: italic;
-  padding-right: 200px;
+  padding-right: 40px;
 }
