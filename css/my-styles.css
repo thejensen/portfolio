@@ -1,0 +1,26 @@
+body {
+  background-image: url("../img/hood.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#heading {
+  margin: 50px;
+}
+
+div, h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+div, h3 {
+  font-family: "Garamond", "Georgia", serif;
+  font-weight: lighter;
+}
+
+div img {
+  width: 200px;
+  border: solid;
+  border-style: double;
+  border-color:  #006666;
+  border-width: 10px;
+}
