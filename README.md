@@ -11,7 +11,8 @@ the things I have been working on! To get in touch with me, please see contact i
 
 ## Setup/Installation Requirements
 
-* _Simply open this in your favorite web browser by going to http://thejensen.github.io/portfolio._
+* _Simply open this in your favorite web browser by going to http://thejensen.github.io/portfolio. If you're my instructor I have submitted my
+repo and links to other projects are also github repositories._
 
 _This code depends on Bootstrap and browsers to run as expected as of August 2016._
 
